@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=Poppins&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), transparent, rgba(7, 9, 119, 0.877)); 
+    font-family: Poppins;
+}
+h2{
+    text-align: center;
+}
+h2:hover{
+    color: darkblue;
+}
+h3{
+    text-align: center;
+    position: static;
+    
+}
+li, a, button{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+header{
+    background-image: url(https://img.freepik.com/free-vector/stream-binary-code-design_53876-118375.jpg?t=st=1743028868~exp=1743032468~hmac=8c8b00549fd96f5dd7b8ba5cbfc6cefad29798a3d3e74a9fa24c44f810432515&w=996);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position:  static;
+}
+.logotipo{
+    color: rgb(234, 221, 243);
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 3em;
+}
+.logotipo:hover{
+    animation-name: grow;
+    animation-duration: 2s;
+
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks a{
+    font-size: 1.2em;
+}
+.navlinks li{
+    display: inline-block;
+    padding: 20px 45px;
+}
+.navlinks li:hover{
+    animation-name: grow;
+    animation-duration: 2s;
+    transition: 0.8s;
+}
+button{
+    color: white;
+    background-color: darkblue;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: blue;
+    animation-name: grow ease-in-out;
+    animation-duration: 5s;
+    
+}
+main{
+    margin: 20px;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+}
+#pal{
+    padding: 20px 20px;
+}
+.img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    
+}
+#text{
+    text-align: center;
+}
+
+
+form{
+    text-align: center;
+    color: white;
+    background-image: url(https://img.freepik.com/free-vector/stream-binary-code-design_53876-118375.jpg?t=st=1743028868~exp=1743032468~hmac=8c8b00549fd96f5dd7b8ba5cbfc6cefad29798a3d3e74a9fa24c44f810432515&w=996);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 20px;
+    width: 700px;
+    margin: auto;
+}
+.submit{
+    padding:15px;
+    border-radius: 90%;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    font-family: fantasy;
+}
+.submit:hover{
+    background-color: cornflowerblue;
+}
+
+footer{
+    background-color: rgb(61, 61, 61);
+    text-align: center;
+    padding: 20px 20px;
+    bottom: 0%;
+    width: 100%;
+    text-shadow: 2px 2px 2px grey;
+}
+@keyframes grow{
+    100%{transform: scale(1.1, 1.2)}
+}
+@media (max-width:900px) {
+    li, a, span, button{
+        font-size: 12px;
+    }
+    .logotipo{
+        font-size:20px;
+    }
+    form{
+        padding: 2px 2px;
+        max-width: 400px;
+        min-width: 300px;
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechConnect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <span class="logotipo">TechConnect</span>
+        <nav>
+            <ul class="navlinks">
+                <li><a href=""> <i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#pal"><i class="fa-solid fa-globe"></i> Palestrantes </a></li>
+                <li><a href="#form"  ><i class="fa-solid fa-check"></i> Inscrição</a></li>
+            </ul>            
+        </nav>
+        <a href="contact.html"><button>Contact</button></a>
+    </header>
+    <main>
+        <h2>TechFuture Summit <i class="fa-solid fa-laptop-code"></i>: Explorando o Amanhã da Tecnologia </h2>
+        <hr>
+        <h3>Descrição do evento:</h3>
+        <p><strong>Local: UniJorge no dia 06/04/2025 a partir das 8h30 da manhã</strong></p>
+        <p>O TechFuture Summit é um evento inovador que reúne designers e desenvolvedores para discutir e moldar o futuro da tecnologia. Com um ambiente dinâmico e inspirador, o evento proporciona um espaço para trocas de ideias, apresentações de tendências emergentes e debates sobre os desafios e oportunidades da era digital.</p>  
+            
+        <p>Durante o summit, especialistas renomados compartilharão insights sobre temas como inteligência artificial, UX/UI design, desenvolvimento de software, Web3, realidade aumentada e muito mais. Além de palestras envolventes, haverá painéis interativos, workshops práticos e oportunidades de networking, permitindo que os participantes explorem novas perspectivas e colaborem em projetos visionários.</p> 
+            
+        <p>Seja você um desenvolvedor experiente ou um designer apaixonado pela inovação, o TechFuture Summit é o lugar ideal para expandir seus conhecimentos, conectar-se com profissionais da área e contribuir para o avanço tecnológico global. Junte-se a nós e faça parte da revolução digital! 🚀</p>
+        <hr>
+
+        <div id="pal">
+            <h3>Palestrantes:</h3>
+            <img class="img" src="https://media.licdn.com/dms/image/v2/D4D03AQFD_L-_UFWZpA/profile-displayphoto-shrink_200_200/B4DZSjUQHOHYAc-/0/1737906784999?e=1748476800&v=beta&t=LG0-xGZzHdPdhcWhYmG7yMNWO6LiE3UsiG_jug5yCGA" width="100px" alt="">
+            <p id="text"><strong>Luis Alberto Pires</strong> tem uma vasta experiência de 16 anos em Tecnologia; Experiência de mais de 2 anos como Product Owner, mais de 5 como Scrum Master, gerente de projetos em equipes de desenvolvimento e suporte de sistemas.
+                Experiência de 7 anos na área comercial com gestão de indicadores (KPI) , objetivos e metas (OKR);</p>
+            <img class="img" src="https://media.licdn.com/dms/image/v2/D4D03AQGQyBbrj4LfDA/profile-displayphoto-shrink_200_200/B4DZTWz2iAG4AY-/0/1738770705114?e=1748476800&v=beta&t=lUJZAbg2kWR7fc_qeTNSW39Ui2q57NNZyCQoY73Yum0" width="100px" alt="">
+            <p id="text"><strong>Gustavo Guanabara</strong> é professor carioca desde 1994 e já atuou em todo tipo de segmento.
+
+                Atuou desde ensino infantil, passando por cursos técnicos, universidades e já coordenou o setor de tutoria para ensino à distância de uma universidade pública.
+                
+                Atualmente, viaja pelo Brasil dando palestras em eventos nacionais e internacionais, como Campus Party, FISL, Latinoware, etc.</p>  
+        </div>
+        <hr>
+        <form action="sucess.html" id="form">
+            <br>
+            <h3>Inscrição para o TechFuture Summit</h3>
+            
+                <label for="name">Nome completo</label>
+                <input type="text" id="name" placeholder="Ex: Maria de Sousa Silva" required><br>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="example123@email.com" required><br>
+                
+                <label for="poo">Você prefere ir ao evento de modo Presencial:</label>
+                <input type="radio" value="poo" name="a" id="poo" required><br>
+                <label for="poo">Você prefere ir ao evento de modo Online:</label>
+                <input type="radio" name="a" value="poo" id="poo" required><br>
+
+                <label for="term">Aceitação do termos</label>
+                <input type="checkbox" name="" id="" required><br><br>
+
+
+                <input type="submit" name="Enviar" class="submit">
+                <input type="reset" value="Refazer" class="submit"><br><br>
+        </form>
+    </main>
+    <footer>
+        <h3>Made by NaloTech</h3>
+    </footer>
+</body>
+</html>
