@@ -40,6 +40,7 @@ header{
     font-family: fantasy;
     font-weight: bolder;
     font-size: 3em;
+    transition: 0.8s;
 }
 .logotipo:hover{
     animation-name: grow;
